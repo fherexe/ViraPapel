@@ -7,6 +7,7 @@
     margin: 0;
     font-family: 'Lato', sans-serif;
     text-decoration: none;
+    list-style: none; 
 }
 
 p{
@@ -63,10 +64,6 @@ header{
             padding-bottom: 26px;
         }
 
-        .nav-list {
-            list-style: none; 
-        }
-
         .nav-list li {
             margin-left:20px;
             letter-spacing:1px;
@@ -102,19 +99,20 @@ main{
         }
 
 section{
-    padding: 5% 10%;
+    margin:8% 0%;
+    padding: 0% 10%;
 }   
     .section{
         display: flex;
         flex-direction: row;
         align-content: center;
         gap: 2em;
-
     }
         .sectionitem{
             text-align: center;
-            height: 19em;
-            width: 34em;
+            height: 18em;
+            width: 35em;
+            padding: 1em;
         }
         .sectionitem img{
             height: 6em;
@@ -166,22 +164,45 @@ article{
 footer{
     color: #fff;
     background-color: var(--color1);
-    height: 15em;
 }
 
-.footer{
-    margin: 0 10%;
-}
+    .footer{
+        display: flex;
+        flex-direction:row;
+        margin: 0 10%;
+        padding: 1% 0%;
+    } 
+        .footer h2{
+            margin-bottom: 0.2em;
+        }
 
-footer a{
-    text-decoration: underline;
-    font-weight: 600;
-    
-}
+        footer a{
+            text-decoration: underline;
+            font-weight: 600;
+        }
 
-@media (max-width:900px){
+            footer a:hover{
+                color: blue;
+            }
+
+    .contato{
+        
+    }
+
+        footer p{
+            text-align: center;
+            padding: 1% 0%;
+        }
+
+@media (max-width:820px){
     .section{
         display: flex;
         flex-direction: column;
+        margin: 0% 0%;
+    }
+
+    .sectionitem{
+        height: 18em;
+        width: 26em;
     }
 }
