@@ -9,66 +9,66 @@
     text-decoration: none;
 }
 
+:root{
+    --box:border:1px solid red;
+    --color1:#285C4D;
+    --color2:#0D0D0D;
+}
+
 a {
     color: rgb(255, 255, 255);
 }
 
-header{
-    height: 18vh;
-    width: 100%;
-    background-color:#285C4D;
-}
-
-
-.menuheader{
+.endereco{
     color: #fff;
     padding: 3px;
-    padding-left:12.2%;
-    background-color:#0D0D0D;
+    padding:0% 10%;
+    background-color:var(--color2);
 }
 
-.menuheader img{
-    height: 15px;
-    width: 15px;
-}
-
-nav {
-    margin: 0 10%;
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content:space-around;
-    height: 79.4%;
-}    
-
-.logo{
-    height: 100%;
-    width: 30%;
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    
-}
-    nav a:hover {
-        border-bottom: 5px solid #fff;
-        padding-bottom: 40px;
-        
+    .endereco img{
+        height: 15px;
+        width: 15px;
     }
-    .nav-list {
-        list-style: none;
+
+header{
+    height: 5em;
+    width: 100%;
+    background-color:var(--color1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0% 10%;
+}
+
+    .logo{
+        height: 4em;
         display: flex;
+        flex-direction:row;
+        align-items: center;
     }
 
-    .nav-list li {
-        letter-spacing:1px;
-        letter-spacing: 1px;
-        margin-left:32px;
-        font-weight:bold;
-        font-size: 18px;
-    }
+    nav {
+     
+    }    
+        nav a:hover {
+            border-bottom: 5px solid #fff;
+            padding-bottom: 25px;
+        }
+
+        .nav-list {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-list li {
+            letter-spacing:1px;
+            margin-left:32px;
+            font-weight:bold;
+        }
 
 main{
-    background-color: #0D0D0D;
+    background-color: var(--color2);
 }
     .container1 {
         background-image: url(img/kidsmile.jpg);
@@ -76,15 +76,15 @@ main{
         background-size: cover;
         background-position: center;
         display: inline-block;
-        min-height: 516px;
+        min-height: 546px;
         width: 100%;
+        padding: 0% 10%;
     }
 
     .containerbox{
-        background-color: #285c4dd0;
+        background-color: var(--color1);
         display: block;
         position: relative;
-        margin-left: 12%;
         height: 26em;
         width: 35em;
         padding:4em;
@@ -141,9 +141,5 @@ main{
 
     .botao:hover{
         background-color: #fff;
-        color: #285C4D;
+        color: var(--color1);
     }
-
-
-    /** border:2px solid red;
-    #92D95F **/
