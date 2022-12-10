@@ -9,6 +9,10 @@
     text-decoration: none;
 }
 
+p{
+    text-indent: 1.5em;
+}
+
 :root{
     --box:border:1px solid red;
     --color1:#285C4D;
@@ -138,13 +142,24 @@ section{
 
 
 article{
-    background-color:silver;
+    background-image:url(img/texturapapel.webp);
+    background-size: cover;
     height: 25em;
+    padding: 5% 0%;
     
 }
 
 .article{
-    margin: 0 10%;
+    background-color: rgba(255, 255, 255, 0.589);
+    margin: 0% 10%;
+    text-align:justify;
+    height: 15em;
+    padding: 2em;
+    width: 30em;
+}
+
+.article p{
+    padding-top:1em;
 }
 
 
@@ -156,4 +171,17 @@ footer{
 
 .footer{
     margin: 0 10%;
+}
+
+footer a{
+    text-decoration: underline;
+    font-weight: 600;
+    
+}
+
+@media (max-width:900px){
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
 }
