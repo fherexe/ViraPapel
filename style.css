@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+header{
+    height: 18vh;
+    width: 100%;
+    background-color:#285C4D;
+}
+
+
+.menuheader{
+    color: #fff;
+    padding: 3px;
+    padding-left:12.2%;
+    background-color:#0D0D0D;
+}
+
+.menuheader img{
+    height: 15px;
+    width: 15px;
+}
+
+nav {
+    margin: 0 10%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+    height: 79.4%;
+}    
+
+.logo{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    
+}
+    nav a:hover {
+        border-bottom: 5px solid #fff;
+        padding-bottom: 40px;
+        
+    }
+    .nav-list {
+        list-style: none;
+        display: flex;
+    }
+
+    .nav-list li {
+        letter-spacing:1px;
+        letter-spacing: 1px;
+        margin-left:32px;
+        font-weight:bold;
+        font-size: 18px;
+    }
+
+main{
+    background-color: #0D0D0D;
+}
+    .container1 {
+        background-image: url(img/kidsmile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: inline-block;
+        min-height: 516px;
+        width: 100%;
+    }
+
+    .containerbox{
+        background-color: #285c4dd0;
+        display: block;
+        position: relative;
+        margin-left: 12%;
+        height: 26em;
+        width: 35em;
+        padding:4em;
+        text-align:justify;
+        margin-top: 4%;
+       
+        color: #fff;
+
+    }
+        .container1 h1{
+            font-size: 36px;   
+            font-weight: 600;
+        }
+
+        .container1 p{
+            padding-top: 1em;
+            padding-bottom: 8em;
+        }
+
+    section{
+        width: 100%;   
+    }   
+
+    .section{
+        padding-top: 2% 0%;
+        margin-left: 12%;
+        display: flex;
+    }
+        .sectionitem{
+            text-align: center;
+            height: 25em;
+            width: 25em;
+            padding: 4em;
+        }
+        .sectionitem img{
+            height: 7em;
+            width: 7em;
+        }
+
+        .section h2{
+            padding: 20px 0px;
+        }
+
+    .botao{
+        display: inline-block;
+        background-color: #00000000;
+        border: 1px solid #fff;
+        padding: 20px 40px;
+        font-size: 20px;
+        border-radius: 2em;
+        font-weight: 600;        
+        
+    }
+
+    .botao:hover{
+        background-color: #fff;
+        color: #285C4D;
+    }
+
+
+    /** border:2px solid red;
+    #92D95F **/
