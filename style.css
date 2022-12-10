@@ -22,7 +22,7 @@ a {
 .endereco{
     color: #fff;
     padding: 3px;
-    padding:0% 10%;
+    padding:2px 10%;
     background-color:var(--color2);
 }
 
@@ -32,13 +32,13 @@ a {
     }
 
 header{
-    height: 5em;
-    width: 100%;
     background-color:var(--color1);
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0% 10%;
+    height: 5em;
+    width: 100%;
+    padding: 2% 10%;
 }
 
     .logo{
@@ -52,8 +52,8 @@ header{
      
     }    
         nav a:hover {
-            border-bottom: 5px solid #fff;
-            padding-bottom: 25px;
+            border-bottom: 4px solid #fff;
+            padding-bottom: 26px;
         }
 
         .nav-list {
@@ -69,49 +69,38 @@ header{
 
 main{
     background-color: var(--color2);
+    background-image: url(img/kidsmile.jpg);
+    background-repeat: no-repeat;
+    background-size:110%;
+    background-position: center;
+    display: inline-block;
+    min-height: 546px;
+    max-height: 646px;
+    width: 100%;
+    padding: 0% 10%;
+    padding-left: 10%;
 }
-    .container1 {
-        background-image: url(img/kidsmile.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        display: inline-block;
-        min-height: 546px;
-        width: 100%;
-        padding: 0% 10%;
-    }
-
-    .containerbox{
-        background-color: var(--color1);
-        display: block;
-        position: relative;
-        height: 26em;
-        width: 35em;
-        padding:4em;
+    .container{
+        background-color:#285c4dd2;
         text-align:justify;
-        margin-top: 4%;
-       
+        height: 21em;
+        width: 30em;
+        padding: 2em;
         color: #fff;
-
+        margin-top:10%;
     }
-        .container1 h1{
-            font-size: 36px;   
-            font-weight: 600;
-        }
-
-        .container1 p{
+        .container p{
             padding-top: 1em;
-            padding-bottom: 8em;
+            padding-bottom: 6em;
         }
 
-    section{
-        width: 100%;   
-    }   
-
+section{
+    width: 100%;   
+}   
     .section{
         padding-top: 2% 0%;
-        margin-left: 12%;
         display: flex;
+        justify-content: center;
     }
         .sectionitem{
             text-align: center;
@@ -132,8 +121,7 @@ main{
         display: inline-block;
         background-color: #00000000;
         border: 1px solid #fff;
-        padding: 20px 40px;
-        font-size: 20px;
+        padding: 10px 30px;
         border-radius: 2em;
         font-weight: 600;        
         
