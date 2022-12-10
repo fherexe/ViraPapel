@@ -46,32 +46,33 @@ header{
         display: flex;
         flex-direction:row;
         align-items: center;
+        padding-right: 16%;
     }
 
     nav {
      
-    }    
+    }  
         nav a:hover {
             border-bottom: 4px solid #fff;
             padding-bottom: 26px;
         }
 
         .nav-list {
-            list-style: none;
-            display: flex;
+            list-style: none; 
         }
 
         .nav-list li {
+            margin-left:20px;
             letter-spacing:1px;
-            margin-left:32px;
             font-weight:bold;
+            display: inline;
         }
 
 main{
     background-color: var(--color2);
     background-image: url(img/kidsmile.jpg);
     background-repeat: no-repeat;
-    background-size:110%;
+    background-size:cover;
     background-position: center;
     display: inline-block;
     min-height: 546px;
@@ -95,26 +96,27 @@ main{
         }
 
 section{
-    width: 100%;   
+    padding: 2% 10%;  
 }   
     .section{
-        padding-top: 2% 0%;
         display: flex;
-        justify-content: center;
+        flex-direction: row;
+        gap: 2em;
+
     }
         .sectionitem{
             text-align: center;
-            height: 25em;
-            width: 25em;
-            padding: 4em;
+            height: 19em;
+            width: 34em;
+            padding: 1em;
         }
         .sectionitem img{
-            height: 7em;
-            width: 7em;
+            height: 6em;
+            width: 6em;
         }
 
         .section h2{
-            padding: 20px 0px;
+            padding: 16px 0px;
         }
 
     .botao{
