@@ -15,6 +15,10 @@
     --color2:#0D0D0D;
 }
 
+body{
+    color: #0D0D0D;
+}
+
 a {
     color: rgb(255, 255, 255);
 }
@@ -46,12 +50,10 @@ header{
         display: flex;
         flex-direction:row;
         align-items: center;
-        padding-right: 16%;
-    }
+        padding-right: 22%;
+    } 
 
-    nav {
-     
-    }  
+
         nav a:hover {
             border-bottom: 4px solid #fff;
             padding-bottom: 26px;
@@ -96,11 +98,12 @@ main{
         }
 
 section{
-    padding: 2% 10%;  
+    padding: 5% 10%;
 }   
     .section{
         display: flex;
         flex-direction: row;
+        align-content: center;
         gap: 2em;
 
     }
@@ -108,7 +111,6 @@ section{
             text-align: center;
             height: 19em;
             width: 34em;
-            padding: 1em;
         }
         .sectionitem img{
             height: 6em;
@@ -133,3 +135,25 @@ section{
         background-color: #fff;
         color: var(--color1);
     }
+
+
+article{
+    background-color:silver;
+    height: 25em;
+    
+}
+
+.article{
+    margin: 0 10%;
+}
+
+
+footer{
+    color: #fff;
+    background-color: var(--color1);
+    height: 15em;
+}
+
+.footer{
+    margin: 0 10%;
+}
