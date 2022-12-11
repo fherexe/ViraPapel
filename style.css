@@ -261,11 +261,19 @@ footer{
         }
 
         .articleitem1{
-            
+            width: 100%;
+        }
+
+        .articleitem1 img{
+            width: 100%;
         }
 
         .articleparter{
-            
+            width: 100%;
+        }
+
+        .articleparter img{
+            width: 100%;
         }
     }
     
