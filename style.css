@@ -74,6 +74,7 @@ nav{
     float:left;
     height: 100%;
     width: 11em;
+    z-index:unset;
 }
 
 .logo2 img{
@@ -181,11 +182,10 @@ footer{
     color: #fff;
     background-color: var(--color1);
     height: fit-content;
-    padding: 1% 5%;
+    padding: 10px 5%;
 }
 
     .footer{
-        padding: 2px 5%;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -243,6 +243,9 @@ footer{
         text-align: center;
         transition: all .5s;
         left: -100%;
+    }
+    nav{
+        z-index: 1;
     }
     
     .sectioncontainer{
