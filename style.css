@@ -315,4 +315,8 @@ footer{
     .articleitem2{
         width: 100%;
     }
+
+    .articleitem2 img{
+        width: 100%;
+    }
 }
