@@ -281,14 +281,15 @@ footer{
         
     }
 }
+
 @media (max-width:852px){
     .sectioncontainer{
         margin:auto;
         display: flex;
         flex-direction: column;
-        max-width: 100%;
         justify-content: center;
         align-items: center;
+        
     }
 
     .articlecontainer1{
@@ -298,7 +299,6 @@ footer{
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 100%;
     }
 
     .articlecontainer2{
@@ -307,14 +307,13 @@ footer{
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 100%;
     }
 
     .articleitem1{
         width: 100%;
     }
 
-    .articleitem2{
+    .articleitem2{ 
         width: 100%;
     }
 
