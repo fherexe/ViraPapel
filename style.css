@@ -25,6 +25,7 @@ a {
 }
 
 h2{
+    font-size: 32px;
     padding-bottom: 10px;
 }
 
@@ -46,6 +47,7 @@ nav{
         nav ul li{
             display: inline-block;
             line-height: 80px;
+            letter-spacing: 2px;
         }
 
             nav ul li a{
@@ -168,20 +170,13 @@ section{
     }
 
 article{
-    
-}
-
-.artitem1{
-    display: block;
-    width: 108%;
-    height: auto;
-    max-width: 100%;
+    padding: 10px 5%;
+    border: 2px solid red;
 }
 
 footer{
     color: #fff;
     background-color: var(--color1);
-    height: fit-content;
     padding: 10px 5%;
 }
 
@@ -206,10 +201,10 @@ footer{
                 color: blue;
             }
 
-            footer p{
-                text-align: center;
-                padding: 1% 0%;
-            }
+        footer p{
+            text-align: center;
+            padding: 1% 0%;
+        }
             
     .contato{
         height: 10em;
