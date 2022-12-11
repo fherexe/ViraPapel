@@ -292,7 +292,8 @@ footer{
     }
 
     .sectioncontainer img{
-        
+        width: 6em;
+        height: 6em;
     }
 
     .articlecontainer1{
