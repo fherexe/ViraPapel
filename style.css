@@ -10,14 +10,6 @@
     list-style: none; 
 }
 
-h2{
-    padding-bottom: 10px;
-}
-
-p{
-    text-indent: 1.5em;
-}
-
 :root{
     --box:border:1px solid red;
     --color1:#285C4D;
@@ -30,6 +22,14 @@ body{
 
 a {
     color: rgb(255, 255, 255);
+}
+
+h2{
+    padding-bottom: 10px;
+}
+
+p{
+    text-indent: 1.5em;
 }
 
 .endereco{
@@ -53,26 +53,44 @@ header{
     padding: 2% 10%;
 }
 
-    .logo{
-        height: 4em;
-        display: flex;
-        flex-direction:row;
-        align-items: center;
-        padding-right: 22%;
-    } 
 
 
-        nav a:hover {
-            border-bottom: 4px solid #fff;
-            padding-bottom: 26px;
+nav{
+    border: 2px solid red;
+    height: 80px;
+    width: 100%;
+}
+
+    nav ul{
+        float:right;
+        margin-right:20px;
+    }
+
+        nav ul li{
+            display: inline-block;
+            line-height: 80px;
         }
 
-        .nav-list li {
-            margin-left:20px;
-            letter-spacing:1px;
-            font-weight:bold;
-            display: inline;
-        }
+            nav ul li a{
+                color: #fff;
+                font-size: 17px;
+                padding: 7px 13px;
+                border-radius: 3px;
+            }
+
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float:right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display:none;
+}
+
+#check{
+    display: none;
+}
 
 main{
     background-color: var(--color2);
@@ -173,7 +191,16 @@ footer{
                 padding: 1% 0%;
             }
 
-@media (max-width:840px){
+@media (max-width:952px){
+    nav ul li a{
+        font-size: 16px;
+        }
+
+    .checkbtn{
+        display: block;
+    }
+    
+
     .section{
         display: flex;
         flex-direction: column;

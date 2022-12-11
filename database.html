@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <title>DataBase</title>
+</head>
+<body>
+    <div class="bemvindo typing-animation">
+    </div>
+    <div class="container">
+        <div>
+            <a href="cameras.html" target="_blank">
+                <img src="img/Folder.png" alt="Pasta">
+            </a>
+            <p>Arredores Porto Alegre ao vivo</p>
+        </div>
+        <div>
+            <a href="nasa.html" target="_blank">
+                <img src="img/Folder.png" alt="Pasta">
+            </a>
+            <p>Deleted NASA</p>
+        </div>
+        <div>
+            <a href="scp.html" target="_blank">
+                <img src="img/Folder.png" alt="Pasta">
+            </a>
+            <p>Deleted SCP</p>
+        </div>
+        <div>
+            <a href="relatorio.html" target="_blank">
+                <img src="img/Folder.png" alt="Pasta">
+            </a>
+            <p>Deleted Relatório</p>
+        </div>
+        <div>
+            <a href="readme.html" target="_blank">
+                <img src="img/Folder.png" alt="Pasta" >
+            </a>
+            <p>READ.ME</p>
+        </div>
+    </div>
+    <footer>
+        <input type="checkbox" id="chec" > 
+        <label for="chec">
+                Iniciar
+        </label>
+    
+        <nav>
+            <ul>
+                <li><a href="https://thispersondoesnotexist.com/" target="_blank">Create Person</a></li>
+                <li><a href="https://temp-mail.org/pt/" target="_blank">Temp Email</a></li>
+                <li><a href="https://alternativeto.net/" target="_blank">Alternative Apps</a></li>
+                <li><a href="https://www.virustotal.com/gui/home/upload" target="_blank">Scan virus</a></li>
+                <li><a href="https://myemulator.online/" target="_blank" >Retro Games</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier Prime', monospace;
+}
+
+body{
+    background-color: #000000;
+    background-image: url(img/logotipo.png);
+    background-size: 45em;
+    background-position:50% -50%;
+    background-repeat: no-repeat;   
+}
+.container{ 
+    padding-top:21px;
+    display: inline-block;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+  
+}
+    .container div{
+        height: 5em;
+        width: 5em;
+        padding: 10px;
+        margin-right:1vw;
+        text-align: center;
+        margin-top: 1em;
+    }
+        .container img{
+            height: 4rem;
+            width: 4rem;
+     }
+            .container img:hover{
+                content: url(img/Opened\ Folder.png);
+            }
+        .container p{
+            color: rgba(252, 252, 252, 0.795);
+            font-size: 10px;
+        }
+
+footer{
+    background-color: rgb(0, 0, 0);
+    border-top: 4px solid #0ec00e;
+    position: absolute;
+    bottom: 0em;
+    width: 100%;
+    height:7vh;
+}
+    label{  /* botão iniciar*/
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        left: 3%;
+        z-index:1;
+        padding: 6px 30px;
+        height: 20px;
+        border:1px solid #0ec00e;
+        color: #0ec00e;
+        margin-top:8px;
+        
+        }
+        label:hover{
+            background-color: #0ec00e;
+            color: black;
+        }
+        nav{
+        margin-left: 3%;
+        font-size: small;
+        width: 300px;
+        
+
+        }
+        nav a{
+                text-decoration: none;
+                padding: 20px 5px;
+                color: black;
+                display: block;
+                background-color: #0ec00e;
+        }
+            nav a:hover{
+                border:2px solid #000000;
+        }
+
+    
+        input[type="checkbox"]{
+                display: none;
+        }
+            
+            input[type="checkbox"]:checked ~ nav{
+                transform:translateX(500px);
+            }
+
+
+    ul{
+        list-style: none;
+        top:-22em;
+        position: absolute;
+        width: 100%;
+    }
+
+        li{
+            padding: 1px;
+    }
+
+/*
+    .typing-animation {
+            animation:900ms steps(300) infinite, typing 5s steps(200);
+        }
+        @keyframes typing {
+            from{
+                width: 30em;
+            }
+            to{
+                width: 70em;
+            }
+        }
+
+        @keyframes loading {
+            from{
+                transform:  rotate(0deg);
+            }
+            to{ 
+                transform: rotate(360deg);
+            }
+        }
+*/
+
+    .bemvindo{  /* background */
+        display: inline-block;
+            text-align: justify;
+            height: 20em;
+            width: 420px;
+            position: absolute;
+            top: 7%;
+            left: 1%;
+            color: #0ec00e;
+            background-image: url(https://cutewallpaper.org/28/computer-hacking-wallpaper-gif/pin-on-gifs.gif);
+            background-size: cover;
+            background-position: center;
+        }      
+    .loader{
+        position: absolute;
+        display: inline-block;
+        margin-left: 10%;
+        margin-top:11%;
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        border: 2px solid #0f0;
+        border-top:4px solid #3f3;
+        border-bottom:4px solid #0c0;
+        animation: loading 2s linear infinite;
+    } 
+    </style>
+</body>
+</html>
