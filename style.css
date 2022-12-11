@@ -54,12 +54,17 @@ header{
     position: fixed;
 }
 
-
-
 nav{
     height: 80px;
     width: 100%;
 }
+    .logo{
+        color: #fff;
+        font-size: 35px;
+        line-height: 80px;
+        padding:0;
+    }
+
     nav ul{
         float:right;
         margin-right:20px;
@@ -80,13 +85,19 @@ nav{
                 padding-bottom: 25px;
             }
 
+
 .checkbtn{
-    font-size: 30px;
+    background-image: url(img/Icons/Menu\ Rounded.png);
+    background-size: cover;
+    position: relative;
+    top:15px;
+    font-size: 50px;
     color: #fff;
     float:right;
-    line-height: 80px;
+    height: 1em;
+    width: 1em;
     cursor: pointer;
-    display:none;
+    display: none;
 }
 
 #check{
