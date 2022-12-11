@@ -302,4 +302,14 @@ footer{
         align-items: center;
         text-align: center;
     }
+
+    .articleitem1{
+        width: 100%;
+    }
+
+    .articleitem2{
+        width: 100%;
+    }
+
+
 }
