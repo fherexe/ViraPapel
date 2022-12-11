@@ -284,7 +284,6 @@ footer{
 
 @media (max-width:852px){
     .sectioncontainer{
-        
         display: flex;
         flex-direction: column;
         justify-content: center;
