@@ -284,7 +284,7 @@ footer{
 
 @media (max-width:852px){
     .sectioncontainer{
-        margin:auto;
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -293,7 +293,7 @@ footer{
     }
 
     .articlecontainer1{
-        margin:auto;
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -302,7 +302,7 @@ footer{
     }
 
     .articlecontainer2{
-        margin:auto;
+        
         flex-direction: column;
         justify-content: center;
         align-items: center;
