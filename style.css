@@ -244,6 +244,7 @@ footer{
             margin:auto;
             display: flex;
             flex-direction: column;
+            width: 100%;
         }
     
         .articlecontainer1{
@@ -251,6 +252,7 @@ footer{
             display: flex;
             flex-direction: column;
             align-items: center;
+            width: 100%;
         }
     
         .articlecontainer2{
@@ -267,6 +269,8 @@ footer{
         .articleitem img{
             width: 100%;
         }
+
+
         .articleparter{
             width: 100%;
         }
