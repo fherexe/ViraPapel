@@ -288,6 +288,10 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
+    }
+
+    .sectioncontainer img{
         
     }
 
@@ -300,8 +304,8 @@ footer{
         text-align: center;
     }
 
+
     .articlecontainer2{
-        
         flex-direction: column;
         justify-content: center;
         align-items: center;
