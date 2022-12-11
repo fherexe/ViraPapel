@@ -140,14 +140,6 @@ section{
         color: var(--color1);
     }
 
-
-article{
-    background-image:url(img/texturapapel.webp);
-    background-size: cover;
-    width: 100%;
-}
-
-
 footer{
     color: #fff;
     background-color: var(--color1);
