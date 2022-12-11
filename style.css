@@ -172,6 +172,7 @@ section{
 article{
     padding: 10px 5%;
     border: 2px solid red;
+    background-color: #92D95F;
 }
 
 footer{
@@ -183,7 +184,8 @@ footer{
     .footer{
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
     } 
         .footer h2{
             margin-top:1em;
@@ -201,15 +203,17 @@ footer{
                 color: blue;
             }
 
-        footer p{
-            text-align: center;
-            padding: 1% 0%;
-        }
-            
-    .contato{
-        height: 10em;
-        width: 100%;
-        
+    .logofooter img{
+        width: 13em;
+    }
+    .contato p{
+        margin: 1em 0%;
+        max-width: 17em;
+    }
+
+    .copy{
+        text-align: center;
+        padding: 1% 0%;
     }
 
 @media (max-width:952px){
@@ -242,13 +246,21 @@ footer{
     nav{
         z-index: 1;
     }
-    
-    .sectioncontainer{
-        display: flex;
-        flex-direction: column;
-    }
 
     #check:checked ~ ul{
         left: 0;
+    }
+
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:852px){
+    .sectioncontainer{
+        display: flex;
+        flex-direction: column;
     }
 }
