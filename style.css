@@ -35,7 +35,6 @@ p{
 
 nav{
     height: 80px;
-    width: 100%;
     background-color:var(--color1);
     padding:0px 5%;
     position: fixed;
@@ -273,7 +272,6 @@ footer{
 
         .articleitem2{
             margin:auto;
-            width: 100%;
         }
 
         .articleparter{
