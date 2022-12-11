@@ -295,6 +295,7 @@ footer{
         margin:auto;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         text-align: center;
     }
@@ -302,6 +303,7 @@ footer{
     .articlecontainer2{
         margin:auto;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         text-align: center;
     }
@@ -313,6 +315,4 @@ footer{
     .articleitem2{
         width: 100%;
     }
-
-
 }
