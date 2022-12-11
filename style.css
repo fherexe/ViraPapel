@@ -51,21 +51,19 @@ header{
     height: 5em;
     width: 100%;
     padding: 2% 10%;
+    position: fixed;
 }
 
 
 
 nav{
-    border: 2px solid red;
     height: 80px;
     width: 100%;
 }
-
     nav ul{
         float:right;
         margin-right:20px;
     }
-
         nav ul li{
             display: inline-block;
             line-height: 80px;
@@ -77,13 +75,16 @@ nav{
                 padding: 7px 13px;
                 border-radius: 3px;
             }
+            nav ul li a:hover{
+                border-bottom: 4px solid #fff;
+                padding-bottom: 25px;
+            }
 
 .checkbtn{
     font-size: 30px;
     color: #fff;
     float:right;
     line-height: 80px;
-    margin-right: 40px;
     cursor: pointer;
     display:none;
 }
@@ -91,6 +92,7 @@ nav{
 #check{
     display: none;
 }
+
 
 main{
     background-color: var(--color2);
@@ -132,7 +134,7 @@ section{
         .sectionitem{
             text-align: center;
             height: 18em;
-            width: 35em;
+            width: 26em;
             padding: 1em;
         }
         .sectionitem img{
@@ -192,22 +194,38 @@ footer{
             }
 
 @media (max-width:952px){
-    nav ul li a{
-        font-size: 16px;
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 50px;
         }
+    nav ul li a{
+        font-size: 20px;
+    }
 
     .checkbtn{
         display: block;
     }
-    
 
+    nav ul{
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background-color: #5b8b7e;
+        top:5em;
+        text-align: center;
+        transition: all .5s;
+        left: -100%;
+    }
+    
     .section{
         display: flex;
         flex-direction: column;
     }
 
-    .sectionitem{
-        height: 18em;
-        width: 26em;
+    #check:checked ~ ul{
+        left: 0;
     }
+    
+
 }
