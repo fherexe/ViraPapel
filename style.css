@@ -313,6 +313,10 @@ footer{
         text-align: center;
     }
 
+    .sectionitem{
+        width: 100%;
+    }
+
     .articleitem1{
         width: 100%;
     }
