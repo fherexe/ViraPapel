@@ -145,30 +145,8 @@ article{
     background-image:url(img/texturapapel.webp);
     background-size: cover;
     width: 100%;
-    padding: 0% 10%;
-    height: fit-content;
 }
 
-
-    .parcerias{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        width: 100%;
-    }
-
-    .parcerias img{
-        width: 40%;
-    }
-
-        .parceriascontainer1{
-            background-color:#285c4dc7;
-            text-align:justify;
-            height: 20em;
-            width: 31.2em;
-            padding: 2em;
-            color: #fff;
-        }
 
 footer{
     color: #fff;
@@ -182,8 +160,8 @@ footer{
         width: 100%;
     } 
         .footer h2{
-            margin-top: 0.5em;
-            margin-bottom: 0.2em;
+            margin-top:1em;
+            margin-bottom: 1em;
         }
 
         .footer ul{
@@ -225,20 +203,4 @@ footer{
         height: 18em;
         width: 26em;
     }
-
-    article{
-        padding: 0px 0%;
-        width: 100%;
-    }
-
-    .parcerias{
-        padding:0px 0%;
-        flex-direction: column;
-    }
-
-    .parcerias img{
-        width:100%;
-    }
-
-
 }
