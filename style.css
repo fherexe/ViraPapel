@@ -167,7 +167,6 @@ article{
             flex-direction: row;
             align-items: center;
             gap: 2em;
-            height: 32em;
         }
             .sectionitem{
                 text-align: center;
