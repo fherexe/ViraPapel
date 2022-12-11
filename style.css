@@ -278,6 +278,7 @@ footer{
 @media (max-width:952px){
     .container{
         margin:auto;
+        width: 100%;
     }
     nav ul li{
         display: block;
