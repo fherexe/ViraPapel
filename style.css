@@ -32,31 +32,11 @@ p{
     text-indent: 1.5em;
 }
 
-.endereco{
-    color: #fff;
-    padding:2px 5%;
-    background-color:var(--color2);
-}
-
-    .endereco img{
-        height: 15px;
-        width: 15px;
-    }
-
-header{
-    
-    display: inline-block;
-    height: 5em;
-    width: 100%;
-    
-    position: fixed;
-}
-
 nav{
     height: 80px;
     width: 100%;
     background-color:var(--color1);
-    padding:0% 5%;
+    padding:0px 5%;
     position: fixed;
     
 }
@@ -99,7 +79,7 @@ nav{
 .logo2 img{
     width: 11em;
     position: relative;
-    top: -47px;
+    top: 2em;
 }
 
 .checkbtn{
@@ -140,7 +120,7 @@ main{
         width: 30em;
         padding: 2em;
         color: #fff;
-        margin-top: 5%;
+        margin: 15% 0%;
     }
         .container p{
             padding-top: 1em;
@@ -151,7 +131,7 @@ section{
     margin:8% 0%;
     padding: 0% 5%;
 }   
-    .section{
+    .sectioncontainer{
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -186,6 +166,17 @@ section{
         color: var(--color1);
     }
 
+article{
+    
+}
+
+.artitem1{
+    display: block;
+    width: 108%;
+    height: auto;
+    max-width: 100%;
+}
+
 footer{
     color: #fff;
     background-color: var(--color1);
@@ -196,6 +187,8 @@ footer{
     .footer{
         padding: 2px 5%;
         width: 100%;
+        display: flex;
+        flex-wrap: wrap;
     } 
         .footer h2{
             margin-top:1em;
@@ -217,8 +210,17 @@ footer{
                 text-align: center;
                 padding: 1% 0%;
             }
+            
+    .contato{
+        height: 10em;
+        width: 100%;
+        
+    }
 
 @media (max-width:952px){
+    .container{
+        margin:auto;
+    }
     nav ul li{
         display: block;
         margin: 50px 0;
@@ -243,7 +245,7 @@ footer{
         left: -100%;
     }
     
-    .section{
+    .sectioncontainer{
         display: flex;
         flex-direction: column;
     }
@@ -251,6 +253,4 @@ footer{
     #check:checked ~ ul{
         left: 0;
     }
-    
-
 }
