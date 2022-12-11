@@ -264,10 +264,12 @@ footer{
         }
 
         .articleitem1{
+            margin:auto;
             width: 100%;
         }
 
         .articleparter{
+            margin:auto;
             width: 100%;
         }
     }
