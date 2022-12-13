@@ -233,6 +233,7 @@ footer{
     .contato p{
         margin: 1em 0%;
         max-width: 17em;
+        text-indent: 0;
     }
 
     .copy{
@@ -275,6 +276,7 @@ footer{
     .footer{
         flex-direction: column;
         text-align: center;
+        text-indent: none;
         
     }
 }
